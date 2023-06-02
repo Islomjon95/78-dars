@@ -16,3 +16,36 @@ input{
     border: greenyellow;
 }
 
+@mixin buttonType($color, $bgColor){
+    color: $color;
+    background-color: $bgColor;
+    border: none;
+    min-width: 60px;
+    height: 20px;
+    border-radius: 12px;
+}
+
+button{
+    @include buttonType(white,#1585ff);
+}
+
+.text{
+    color: #f222ff;
+    font-size: 17px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif !important;
+    text-align: justify;
+    padding: {
+        left: 10px;
+        right: 10px;
+    }
+}
+
+.text2{
+    font-family: monospace;
+    @extend .text;
+}
+    
+    
+
+
+

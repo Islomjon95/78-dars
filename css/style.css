@@ -7,9 +7,31 @@ input {
 }
 
 .error {
-  border-bottom: 2px solid red;
+  border: red;
 }
 
 .correct {
-  border-bottom: 2px solid rgb(127, 194, 26);
+  border: greenyellow;
+}
+
+button {
+  color: white;
+  background-color: #1585ff;
+  border: none;
+  min-width: 60px;
+  height: 20px;
+  border-radius: 12px;
+}
+
+.text, .text2 {
+  color: #f222ff;
+  font-size: 17px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.text2 {
+  font-family: monospace;
 }/*# sourceMappingURL=style.css.map */
