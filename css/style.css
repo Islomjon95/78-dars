@@ -34,4 +34,10 @@ button {
 
 .text2 {
   font-family: monospace;
+}
+
+.box {
+  width: 410px;
+  border: 1px solid black;
+  height: 50px;
 }/*# sourceMappingURL=style.css.map */
