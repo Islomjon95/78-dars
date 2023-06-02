@@ -1,0 +1,15 @@
+input {
+  width: 30px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+}
+
+.error {
+  border-bottom: 2px solid red;
+}
+
+.correct {
+  border-bottom: 2px solid rgb(127, 194, 26);
+}/*# sourceMappingURL=style.css.map */

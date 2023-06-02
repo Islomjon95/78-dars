@@ -1,0 +1,18 @@
+input{
+    width: 30px;
+    border: {
+        top: none;
+        left: none;
+        right: none;
+    }
+    outline: none;
+}
+
+.error{
+    border: red;
+}
+
+.correct{
+    border: greenyellow;
+}
+
